@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>مُحفظة مصوّرة للمبرمج - Portfolio</title>
+  <meta name="description" content="محفظة مطوّر برمجيات باستخدام玻璃morphism وحدود وأنيقة مع دعم ثنائي اللغة العربية والإنجليزية." />
+  <link rel="icon" href="assets/images/favicon-placeholder.png" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <a href="#main" class="skip-link">تخطي إلى المحتوى</a>
+  <header class="site-header" data-theme="dark">
+    <div class="container nav-wrap">
+      <div class="logo" aria-label="Logo">
+        <img src="assets/images/logo-placeholder.png" alt="Logo" />
+        <span class="brand">MR Portfolio</span>
+      </div>
+      <nav class="main-nav" aria-label="الانتقال الرئيسي">
+        <ul>
+          <li><a href="#home" data-i18n="nav_home">الصفحة الرئيسية</a></li>
+          <li><a href="#about" data-i18n="nav_about">عنّي</a></li>
+          <li><a href="#projects" data-i18n="nav_projects">المشاريع</a></li>
+          <li><a href="#services" data-i18n="nav_services">الخدمات</a></li>
+          <li><a href="#contact" data-i18n="nav_contact">تواصل</a></li>
+        </ul>
+      </nav>
+      <button class="lang-switch" id="langSwitch" aria-label="تبديل اللغة">EN</button>
+      <button class="menu-toggle" id="menuToggle" aria-label="فتح القائمة">☰</button>
+    </div>
+  </header>
+
+  <main id="main" class="site-main">
+    <section id="home" class="hero" aria-label="banner">
+      <div class="container hero-inner">
+        <div class="hero-copy" data-i18n="hero_title">
+          <h1>مُبرمج محترف بثقة وشفافية</h1>
+          <p data-i18n="hero_sub">تصميم باحترافية عالية مع واجهة زجاجية، تفاعلات سلسة وخط تصور حديث.</p>
+          <div class="cta-row">
+            <a href="#projects" class="btn">📁 عرض المشاريع</a>
+            <a href="#contact" class="btn btn-ghost" data-i18n="hero_contact">تواصل معي</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="card glass" aria-label="عرض بطاقات أعمال">
+            <div class="card-header">المشاريع الحديثة</div>
+            <div class="card-body">
+              <div class="project-pill"><span>Web App</span><span class="dot" aria-hidden="true"></span></div>
+              <div class="project-pill"><span>Mobile</span><span class="dot"></span></div>
+              <div class="project-pill"><span>Open Source</span><span class="dot"></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section" aria-label="عنّي">
+      <div class="container">
+        <h2 data-i18n="about_title">من أنا</h2>
+        <p data-i18n="about_desc">أنا مطور برمجيات بخبرة في بناء واجهات مستخدم جذابة، أنظم حديثة، وتكامل API مستقر. أؤمن بأن التصميم الجذاب يعمل عندما يكون واضحاً وسريعاً. أخطط للمشروعات من الرؤية إلى التنفيذ بنهج تفاعلي ومفتوح المصدر.</p>
+        <div class="grid three">
+          <div class="card small">
+            <h3 data-i18n="about_skill1">الخبرة</h3>
+            <p>React, Vue, TypeScript, CSS Architecture</p>
+          </div>
+          <div class="card small">
+            <h3 data-i18n="about_skill2">الأداء</h3>
+            <p>Optimization, Lighthouse, Web Vitals</p>
+          </div>
+          <div class="card small">
+            <h3 data-i18n="about_skill3">التعاون</h3>
+            <p>Agile, Git, Design Systems</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section" aria-label="المشاريع">
+      <div class="container">
+        <h2 data-i18n="projects_title">مشاريعي</h2>
+        <p class="sub" data-i18n="projects_sub">مجموعة من الأمثلة الحية لمشاريعي عبر الويب والهاتف المحمول مع واجهة زجاجية.</p>
+        <div class="grid two gap">
+          <article class="project-card card glass" aria-label="مشروع قياسي">
+            <div class="project-thumb">
+              <img src="assets/images/project-placeholder.jpg" alt="مشروع ويب" />
+            </div>
+            <div class="project-content">
+              <h3>Project Alpha</h3>
+              <p>Web dashboard with realtime data and elegant UI.</p>
+              <a href="#" class="link" data-i18n="projects_view">عرض</a>
+            </div>
+          </article>
+          <article class="project-card card glass" aria-label="مشروع ثاني">
+            <div class="project-thumb">
+              <img src="assets/images/project-placeholder.jpg" alt="مشروع تطبيق موبايل" />
+            </div>
+            <div class="project-content">
+              <h3>Project Nova</h3>
+              <p>Mobile-first app with offline capabilities.</p>
+              <a href="#" class="link" data-i18n="projects_view">عرض</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section" aria-label="الخدمات">
+      <div class="container">
+        <h2 data-i18n="services_title">الخدمات</h2>
+        <div class="grid three services-grid">
+          <div class="card glass service-item">
+            <h3 data-i18n="service_web">تطوير الويب</h3>
+            <p>Single-page apps, progressive enhancement, responsive design.</p>
+          </div>
+          <div class="card glass service-item">
+            <h3 data-i18n="service_ui">تصميم UI/UX</h3>
+            <p>Glassmorphism, borders, motion, and accessibility-first approach.</p>
+          </div>
+          <div class="card glass service-item">
+            <h3 data-i18n="service_api">واجهات برمجة التطبيقات</h3>
+            <p>REST / GraphQL, authentication, data modeling.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact" aria-label="تواصل">
+      <div class="container">
+        <h2 data-i18n="contact_title">تواصل معي</h2>
+        <p class="sub" data-i18n="contact_sub">أخبرني عن مشروعك وسأعود إليك بسرعة مع خطة عملية.</p>
+        <form class="contact-form" onsubmit="return false;">
+          <div class="row">
+            <input type="text" placeholder="اسمك" aria-label="اسمك" required />
+            <input type="email" placeholder="بريدك" aria-label="البريد" required />
+          </div>
+          <textarea placeholder="رسالة" aria-label="رسالة" rows="4" required></textarea>
+          <button class="btn" type="submit">إرسال</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" aria-label="التذييل">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> MR Portfolio. جميع الحقوق محفوظة.</p>
+      <div class="foot-links">
+        <a href="#" data-i18n="footer_terms">الشروط</a>
+        <a href="#" data-i18n="footer_privacy">سياسة الخصوصية</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
